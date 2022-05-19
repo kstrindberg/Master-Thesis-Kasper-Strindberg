@@ -1,0 +1,169 @@
+
+--- Job EVCS_15.gms Start 04/28/22 16:58:27 34.3.0 rac355f3 WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    C:\GAMS\34\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input "C:\Users\kaspe\OneDrive\Documents\UiO\MASTEROPPGAVE\GAMS -Models\EVCS_15.gms"
+    PageSize 0
+    ScrDir "C:\Users\kaspe\OneDrive\Documents\UiO\MASTEROPPGAVE\GAMS -Models\225n\"
+    SysDir C:\GAMS\34\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+Licensee: Small MUD - 5 User License                     S210208|0002AO-WIN
+          University of Oslo, Institute for Technology Systems      DC15723
+          C:\Users\kaspe\OneDrive\Documents\GAMS\gamslice.txt
+          License Admin: Arild Hemstad, arild.hemstad@its.uio.no           
+GAMS 34.3.0   Copyright (C) 1987-2021 GAMS Development. All rights reserved
+--- Starting compilation
+--- EVCS_15.gms(36) 6 Mb
+--- . demand_winter.tsv(276336) 7 Mb
+--- EVCS_15.gms(42) 7 Mb
+--- . Prices_Winter.tsv(34542) 8 Mb
+--- EVCS_15.gms(228) 8 Mb
+--- Starting execution: elapsed 0:00:00.943
+--- EVCS_15.gms(311002) 11 Mb
+--- Generating MIP model optimal_generation
+--- EVCS_15.gms(311098) 122 Mb
+---   518,134 rows  276,348 columns  1,347,148 non-zeroes
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:06.481
+
+IBM ILOG CPLEX   34.3.0 rac355f3 Released Feb 25, 2021 WEI x86 64bit/MS Window
+
+--- GAMS/Cplex licensed for continuous and discrete problems.
+--- Space for names approximately 23.94 Mb
+--- Use option 'names no' to turn use of names off
+--- GMO memory 152.00 Mb (peak 154.11 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 20.1.0.0 link memory 11.20 Mb (peak 57.37 Mb)
+--- Starting Cplex
+
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+Tried aggregator 1 time.
+LP Presolve eliminated 241797 rows and 103632 columns.
+Aggregator did 69084 substitutions.
+Reduced LP has 207252 rows, 103632 columns, and 587211 nonzeros.
+Presolve time = 4.48 sec. (5574.80 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =          3360.383929
+Iteration:   211   Dual objective     =         52752.539192
+Perturbation started.
+Iteration:   707   Dual objective     =         67028.222260
+Iteration:  2151   Dual objective     =         79347.474389
+Iteration:  3537   Dual objective     =         90407.937076
+Elapsed time = 9.38 sec. (10000.38 ticks, 4194 iterations)
+Iteration:  4845   Dual objective     =         95825.819953
+Iteration:  6050   Dual objective     =        100333.289905
+Iteration:  7989   Dual objective     =        104697.194510
+Iteration: 10032   Dual objective     =        104701.835749
+Iteration: 10538   Dual objective     =        113346.792285
+Iteration: 12273   Dual objective     =        120938.929550
+Iteration: 14283   Dual objective     =        125583.877861
+Iteration: 14739   Dual objective     =        127502.288127
+Iteration: 15132   Dual objective     =        127885.899577
+Iteration: 17215   Dual objective     =        128698.788762
+Iteration: 18597   Dual objective     =        137697.969809
+Iteration: 19422   Dual objective     =        140784.535536
+Iteration: 21364   Dual objective     =        143411.678225
+Elapsed time = 19.28 sec. (20038.82 ticks, 21794 iterations)
+Iteration: 21794   Dual objective     =        146910.339833
+Iteration: 22911   Dual objective     =        152738.440152
+Iteration: 24876   Dual objective     =        158701.564492
+Iteration: 26910   Dual objective     =        162914.687286
+Iteration: 28453   Dual objective     =        166400.013123
+Iteration: 28725   Dual objective     =        167768.369196
+Iteration: 30668   Dual objective     =        172541.830971
+Iteration: 32269   Dual objective     =        179626.908239
+Iteration: 33587   Dual objective     =        188448.167189
+Iteration: 34196   Dual objective     =        193858.915367
+Iteration: 36018   Dual objective     =        198686.292052
+Iteration: 36868   Dual objective     =        206070.778389
+Iteration: 37448   Dual objective     =        209112.591893
+Iteration: 38823   Dual objective     =        209748.096458
+Iteration: 39116   Dual objective     =        210537.800498
+Iteration: 40015   Dual objective     =        213094.705049
+Iteration: 40520   Dual objective     =        214186.796253
+Iteration: 41407   Dual objective     =        214974.723453
+Iteration: 42415   Dual objective     =        217678.909817
+Iteration: 43461   Dual objective     =        219860.578360
+Iteration: 44553   Dual objective     =        221740.375125
+Iteration: 45993   Dual objective     =        223775.819899
+Iteration: 48404   Dual objective     =        229955.702302
+Iteration: 50573   Dual objective     =        230236.816879
+Iteration: 51851   Dual objective     =        231204.671274
+Removing perturbation.
+
+--- LP status (1): optimal.
+--- Cplex Time: 30.02sec (det. 30310.50 ticks)
+
+
+Optimal solution found
+Objective:       231566.847347
+
+--- Reading solution for model optimal_generation
+--- EVCS_15.gms(311098) 122 Mb  31 secs
+--- Executing after solve: elapsed 0:00:41.482
+--- EVCS_15.gms(311100) 122 Mb
+--- GDX File (execute_unload) C:\Users\kaspe\OneDrive\Documents\UiO\MASTEROPPGAVE\GAMS -Models\EVCS_15.gdx
+--- EVCS_15.gms(311104) 122 Mb
+--- GDX File (execute_unload) C:\Users\kaspe\OneDrive\Documents\UiO\MASTEROPPGAVE\GAMS -Models\EVCS_15.gdx
+--- EVCS_15.gms(311105) 122 Mb
+GDX2SQLITE v 0.7
+GDX Library      34.3.0 rac355f3 Released Feb 25, 2021 WEI x86 64bit/MS Window
+Current directory:C:\Users\kaspe\OneDrive\Documents\UiO\MASTEROPPGAVE\GAMS -Models
+
+   InputFile:EVCS_15.gdx
+   OutputFile:EVCS_15_results.db
+   Symbols:62
+   Uels:34550
+   Loading Uels
+   Processing Symbols
+     m(34542 records)
+     c(8 records)
+     demand(24252 records)
+     electricity_prices(34542 records)
+     var_ESS_level(34542 records)
+     var_SOC_pen(34542 records)
+     var_grid_power(34542 records)
+     var_grid_ex_power(34542 records)
+     var_grid_total_power(34542 records)
+     var_grid_energy(34542 records)
+     var_grid_ex_energy(34542 records)
+     var_grid_total_energy(0 records)
+     var_ESS_power(34542 records)
+     eq_ESS_power_constraint1(34542 records)
+     eq_ESS_power_constraint2(34542 records)
+     eq_ESS_level(34541 records)
+     eq_ESS_init_level(34542 records)
+     eq_ESS_final_level(34542 records)
+     eq_ESS_cost(34542 records)
+     eq_ESS(34542 records)
+     eq_ESS2(34542 records)
+     eq_grid_balance(34542 records)
+     eq_grid_energy(34542 records)
+     eq_grid_ex_energy(34542 records)
+     eq_grid_total_power(34542 records)
+     eq_grid_max_power1(8634 records)
+     eq_grid_max_power2(8635 records)
+     eq_grid_max_power3(8634 records)
+     eq_grid_max_power4(8638 records)
+     eq_months(34542 records)
+     eq_cost_soc(34542 records)
+     scalars(13 records)
+     scalarvariables(12 records)
+     scalarequations(6 records)
+   Inserts:887839
+   Elapsed:2.20 seconds
+   Inserts/second:404114.25
+   Done
+
+*** Status: Normal completion
+--- Job EVCS_15.gms Stop 04/28/22 16:59:11 elapsed 0:00:44.088

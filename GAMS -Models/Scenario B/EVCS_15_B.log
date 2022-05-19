@@ -1,0 +1,86 @@
+--- Job EVCS_15_B.gms Start 05/11/22 13:59:59 34.3.0 rac355f3 WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    C:\GAMS\34\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input "C:\Users\kaspe\OneDrive\Documents\UiO\MASTEROPPGAVE\GAMS -Models\Scenario B\EVCS_15_B.gms"
+    ScrDir "C:\Users\kaspe\OneDrive\Documents\UiO\MASTEROPPGAVE\GAMS -Models\Scenario B\225a\"
+    SysDir C:\GAMS\34\
+    LogOption 2
+Licensee: Small MUD - 5 User License                     S210208|0002AO-WIN
+          University of Oslo, Institute for Technology Systems      DC15723
+          C:\Users\kaspe\OneDrive\Documents\GAMS\gamslice.txt
+          License Admin: Arild Hemstad, arild.hemstad@its.uio.no           
+GAMS 34.3.0   Copyright (C) 1987-2021 GAMS Development. All rights reserved
+--- Starting compilation
+--- EVCS_15_B.gms(36) 6 Mb
+--- . demand_winter.tsv(276336) 7 Mb
+--- EVCS_15_B.gms(42) 7 Mb
+--- . Prices_Winter.tsv(34542) 8 Mb
+--- EVCS_15_B.gms(228) 8 Mb
+--- Starting execution: elapsed 0:00:01.527
+--- EVCS_15_B.gms(311002) 11 Mb
+--- Generating MIP model optimal_generation
+--- EVCS_15_B.gms(311098) 125 Mb
+---   518,134 rows  276,348 columns  1,381,690 non-zeroes
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:10.447
+
+IBM ILOG CPLEX   34.3.0 rac355f3 Released Feb 25, 2021 WEI x86 64bit/MS Window
+
+--- GAMS/Cplex licensed for continuous and discrete problems.
+--- Space for names approximately 23.94 Mb
+--- Use option 'names no' to turn use of names off
+--- GMO memory 153.50 Mb (peak 155.61 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 20.1.0.0 link memory 11.20 Mb (peak 57.37 Mb)
+--- Starting Cplex
+
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+Tried aggregator 1 time.
+LP Presolve eliminated 207255 rows and 69090 columns.
+Aggregator did 69085 substitutions.
+Reduced LP has 241793 rows, 138173 columns, and 690834 nonzeros.
+Presolve time = 9.61 sec. (8441.34 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =          3367.354595
+Iteration:   810   Dual objective     =         75636.688095
+Elapsed time = 11.88 sec. (10000.90 ticks, 1654 iterations)
+Iteration:  2041   Dual objective     =        121551.784896
+Iteration:  3444   Dual objective     =        178501.955082
+Iteration:  5507   Dual objective     =        233019.942962
+Iteration:  8680   Dual objective     =        304102.449196
+Iteration: 11635   Dual objective     =        354284.037601
+Iteration: 14663   Dual objective     =        395811.455154
+Iteration: 16767   Dual objective     =        420638.171643
+Iteration: 18896   Dual objective     =        440536.701662
+Iteration: 21111   Dual objective     =        459115.942404
+Iteration: 23235   Dual objective     =        475836.533079
+Iteration: 25314   Dual objective     =        487948.482218
+Iteration: 27525   Dual objective     =        499039.983324
+Iteration: 29732   Dual objective     =        508295.760849
+Iteration: 31151   Dual objective     =        513114.107830
+Iteration: 33557   Dual objective     =        520432.432813
+Iteration: 35651   Dual objective     =        526530.707589
+Iteration: 37444   Dual objective     =        529220.997919
+
+--- LP status (1): optimal.
+--- Cplex Time: 23.22sec (det. 17932.51 ticks)
+
+
+Optimal solution found
+Objective:       530517.735105
+
+--- Reading solution for model optimal_generation
+--- Executing after solve: elapsed 0:00:39.282
+--- EVCS_15_B.gms(311100) 125 Mb
+--- GDX File (execute_unload) C:\Users\kaspe\OneDrive\Documents\UiO\MASTEROPPGAVE\GAMS -Models\Scenario B\EVCS_15_B.gdx
+--- EVCS_15_B.gms(311104) 125 Mb
+--- GDX File (execute_unload) C:\Users\kaspe\OneDrive\Documents\UiO\MASTEROPPGAVE\GAMS -Models\Scenario B\EVCS_15_B.gdx
+--- EVCS_15_B.gms(311105) 125 Mb
+*** Status: Normal completion
+--- Job EVCS_15_B.gms Stop 05/11/22 14:00:41 elapsed 0:00:42.730

@@ -1,0 +1,103 @@
+=1
+=2
+=0IBM ILOG CPLEX   34.3.0 rac355f3 Released Feb 25, 2021 WEI x86 64bit/MS Window
+=1
+--- GAMS/Cplex licensed for continuous and discrete problems.
+=2
+=1
+--- Space for names approximately 25.11 Mb
+=2
+=1
+--- Use option 'names no' to turn use of names off
+=2
+=1
+--- GMO memory 158.82 Mb (peak 160.93 Mb)
+=2
+=1
+--- Dictionary memory 0.00 Mb
+=2
+=1
+--- Cplex 20.1.0.0 link memory 11.60 Mb (peak 59.37 Mb)
+=2
+=1
+--- Starting Cplex
+=2
+=C
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+Row 'eq_ESS_efficiency' infeasible, all entries at implied bounds.
+Presolve time = 0.20 sec. (117.66 ticks)
+=C
+=1
+--- LP status (3): infeasible.
+=2
+=1
+--- Cplex Time: 0.22sec (det. 119.24 ticks)
+
+=2
+=1
+--- Rerunning with presolve turned off and solving with LPMETHOD=1.
+=2
+=C
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Advance                                 2
+CPXPARAM_Preprocessing_Presolve                  0
+CPXPARAM_LPMethod                                1
+CPXPARAM_Threads                                 1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+Using devex.
+
+Iteration log . . .
+Iteration:     1    Scaled infeas =       1111994.770000
+Iteration:  8636    Scaled infeas =       1111994.770000
+Elapsed time = 9.81 sec. (12125.99 ticks, 8636 iterations)
+Iteration: 14808    Scaled infeas =       1111994.770000
+Iteration: 14809    Scaled infeas =       1111858.791667
+Iteration: 17920    Scaled infeas =        236793.051407
+Elapsed time = 19.94 sec. (23589.49 ticks, 20088 iterations)
+Iteration: 20088    Scaled infeas =        217435.074167
+Iteration: 20667    Scaled infeas =        216790.653333
+Iteration: 21699    Scaled infeas =        208524.897500
+Elapsed time = 29.52 sec. (33592.27 ticks, 21848 iterations)
+Iteration: 22273    Scaled infeas =        208074.035000
+Iteration: 22823    Scaled infeas =        208074.035000
+Elapsed time = 38.47 sec. (43719.69 ticks, 23373 iterations)
+Iteration: 23373    Scaled infeas =        208074.035000
+Iteration: 23930    Scaled infeas =        207859.765000
+Iteration: 24500    Scaled infeas =        207200.670833
+Elapsed time = 47.20 sec. (53882.63 ticks, 25049 iterations)
+Iteration: 25049    Scaled infeas =        207200.670833
+Iteration: 25616    Scaled infeas =        206206.390833
+Iteration: 26260    Scaled infeas =        203056.958958
+Elapsed time = 56.84 sec. (64968.93 ticks, 26923 iterations)
+Iteration: 26923    Scaled infeas =        200984.976458
+Iteration: 27472    Scaled infeas =        200984.976458
+Iteration: 28021    Scaled infeas =        200984.976458
+Iteration: 28570    Scaled infeas =        200984.976458
+Elapsed time = 67.59 sec. (74970.43 ticks, 28829 iterations)
+Iteration: 29119    Scaled infeas =        200984.976458
+Iteration: 29745    Scaled infeas =        200804.857292
+Elapsed time = 76.80 sec. (84975.84 ticks, 30048 iterations)
+Iteration: 30182    Scaled infeas =        200804.857292
+Iteration: 30619    Scaled infeas =        200804.857292
+Elapsed time = 86.45 sec. (94976.48 ticks, 30635 iterations)
+Iteration: 31056    Scaled infeas =        200804.857292
+Elapsed time = 96.41 sec. (104981.71 ticks, 31398 iterations)
+Iteration: 31493    Scaled infeas =        200804.857292
+Iteration: 31930    Scaled infeas =        200804.857292
+Elapsed time = 106.33 sec. (114984.96 ticks, 31993 iterations)
+Iteration: 32367    Scaled infeas =        200804.857292
+Elapsed time = 116.98 sec. (124995.46 ticks, 32754 iterations)
+Iteration: 32804    Scaled infeas =        200804.857292
+Perturbation started.
+Iteration: 33004    Scaled infeas =        200804.856853
+Markowitz threshold set to 0.1
+Iteration: 33030    Scaled infeas =        200804.856853
+Iteration: 33051    Scaled infeas =        200804.856853
+Iteration: 36548    Scaled infeas =        138335.373186
+Elapsed time = 128.16 sec. (134995.58 ticks, 37242 iterations)
+S

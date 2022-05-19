@@ -1,0 +1,133 @@
+--- Job EVCS_15_G.gms Start 05/12/22 16:47:22 34.3.0 rac355f3 WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    C:\GAMS\34\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input "C:\Users\kaspe\OneDrive\Documents\UiO\MASTEROPPGAVE\GAMS -Models\Scenario G\EVCS_15_G.gms"
+    ScrDir "C:\Users\kaspe\OneDrive\Documents\UiO\MASTEROPPGAVE\GAMS -Models\Scenario G\225a\"
+    SysDir C:\GAMS\34\
+    LogOption 2
+Licensee: Small MUD - 5 User License                     S210208|0002AO-WIN
+          University of Oslo, Institute for Technology Systems      DC15723
+          C:\Users\kaspe\OneDrive\Documents\GAMS\gamslice.txt
+          License Admin: Arild Hemstad, arild.hemstad@its.uio.no           
+GAMS 34.3.0   Copyright (C) 1987-2021 GAMS Development. All rights reserved
+--- Starting compilation
+--- EVCS_15_G.gms(36) 6 Mb
+--- . demand_winter1200.tsv(276336) 7 Mb
+--- EVCS_15_G.gms(42) 7 Mb
+--- . Prices_Winter.tsv(34542) 8 Mb
+--- EVCS_15_G.gms(231) 8 Mb
+--- Starting execution: elapsed 0:00:00.655
+--- EVCS_15_G.gms(311005) 11 Mb
+--- Generating MIP model optimal_generation
+--- EVCS_15_G.gms(311101) 125 Mb
+---   518,134 rows  276,348 columns  1,381,690 non-zeroes
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:05.968
+
+IBM ILOG CPLEX   34.3.0 rac355f3 Released Feb 25, 2021 WEI x86 64bit/MS Window
+
+--- GAMS/Cplex licensed for continuous and discrete problems.
+--- Space for names approximately 23.94 Mb
+--- Use option 'names no' to turn use of names off
+--- GMO memory 153.50 Mb (peak 155.61 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 20.1.0.0 link memory 11.20 Mb (peak 57.37 Mb)
+--- Starting Cplex
+
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+Tried aggregator 1 time.
+LP Presolve eliminated 379969 rows and 103660 columns.
+Aggregator did 34542 substitutions.
+Reduced LP has 103622 rows, 138146 columns, and 345361 nonzeros.
+Presolve time = 0.80 sec. (391.00 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =        138373.854536
+Perturbation started.
+Iteration:  1010   Dual objective     =        141015.576107
+Iteration:  2229   Dual objective     =        141275.691611
+Iteration:  3446   Dual objective     =        141498.504331
+Iteration:  4664   Dual objective     =        141630.419714
+Iteration:  5888   Dual objective     =        141911.490745
+Iteration:  7114   Dual objective     =        142109.291144
+Iteration:  8347   Dual objective     =        142322.692196
+Iteration:  9581   Dual objective     =        142477.273910
+Iteration: 10820   Dual objective     =        142645.621650
+Iteration: 12061   Dual objective     =        142759.508257
+Iteration: 13305   Dual objective     =        142870.661249
+Iteration: 14557   Dual objective     =        143102.767189
+Iteration: 15810   Dual objective     =        143221.374829
+Iteration: 17065   Dual objective     =        143394.084939
+Iteration: 18324   Dual objective     =        143608.961100
+Iteration: 19586   Dual objective     =        143821.540705
+Iteration: 20851   Dual objective     =        143980.556056
+Iteration: 22120   Dual objective     =        144155.840748
+Iteration: 23395   Dual objective     =        144315.673162
+Iteration: 24675   Dual objective     =        144503.089272
+Iteration: 25963   Dual objective     =        144740.108935
+Iteration: 27257   Dual objective     =        144887.958823
+Iteration: 28555   Dual objective     =        145035.957399
+Iteration: 29847   Dual objective     =        145036.105771
+Iteration: 30830   Dual objective     =        171144.078519
+Iteration: 32039   Dual objective     =        187611.379590
+Iteration: 33270   Dual objective     =        205295.571726
+Iteration: 34480   Dual objective     =        223240.660252
+Iteration: 35079   Dual objective     =        243623.628057
+Iteration: 36182   Dual objective     =        245616.093111
+Iteration: 37308   Dual objective     =        247958.220063
+Iteration: 38459   Dual objective     =        249904.677543
+Iteration: 39629   Dual objective     =        251901.836939
+Iteration: 40762   Dual objective     =        253418.062805
+Iteration: 42006   Dual objective     =        254666.586346
+Iteration: 43125   Dual objective     =        256774.858581
+Iteration: 44302   Dual objective     =        257623.546869
+Iteration: 45616   Dual objective     =        263981.717294
+Iteration: 46972   Dual objective     =        271560.519235
+Iteration: 48229   Dual objective     =        276618.675630
+Iteration: 49465   Dual objective     =        279039.638209
+Iteration: 50725   Dual objective     =        282165.770724
+Iteration: 51962   Dual objective     =        284257.337780
+Iteration: 53213   Dual objective     =        286682.179778
+Iteration: 54217   Dual objective     =        287851.893021
+Iteration: 55438   Dual objective     =        289204.866962
+Iteration: 56647   Dual objective     =        290631.442646
+Iteration: 57863   Dual objective     =        292873.797865
+Iteration: 59053   Dual objective     =        293981.975533
+Iteration: 60268   Dual objective     =        295019.970893
+Iteration: 61456   Dual objective     =        296196.423553
+Iteration: 62652   Dual objective     =        297995.463188
+Iteration: 63860   Dual objective     =        299652.072039
+Iteration: 65072   Dual objective     =        300869.970867
+Iteration: 66271   Dual objective     =        302130.864505
+Iteration: 67482   Dual objective     =        302920.606010
+Iteration: 68671   Dual objective     =        303357.884987
+Iteration: 69872   Dual objective     =        303563.535411
+Iteration: 70225   Dual objective     =        303598.323622
+Iteration: 70564   Dual objective     =        303599.876278
+Iteration: 70898   Dual objective     =        303600.817575
+Iteration: 71229   Dual objective     =        303602.479314
+Iteration: 71569   Dual objective     =        303603.696540
+Iteration: 71902   Dual objective     =        303605.626579
+Iteration: 72228   Dual objective     =        303606.970859
+Removing perturbation.
+
+--- LP status (1): optimal.
+--- Cplex Time: 8.30sec (det. 8740.06 ticks)
+
+
+Optimal solution found
+Objective:       303605.018145
+
+--- Reading solution for model optimal_generation
+--- Executing after solve: elapsed 0:00:18.141
+--- EVCS_15_G.gms(311103) 125 Mb
+--- GDX File (execute_unload) C:\Users\kaspe\OneDrive\Documents\UiO\MASTEROPPGAVE\GAMS -Models\Scenario G\EVCS_15_G.gdx
+--- EVCS_15_G.gms(311107) 125 Mb
+--- GDX File (execute_unload) C:\Users\kaspe\OneDrive\Documents\UiO\MASTEROPPGAVE\GAMS -Models\Scenario G\EVCS_15_G.gdx
+--- EVCS_15_G.gms(311108) 125 Mb
+*** Status: Normal completion
+--- Job EVCS_15_G.gms Stop 05/12/22 16:47:43 elapsed 0:00:20.878
